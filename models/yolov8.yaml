@@ -1,0 +1,9 @@
+model:
+  name: YOLOv8
+  num_classes: 3
+training:
+  batch_size: 8
+  epochs: 20
+dataset:
+  train: data/train/images
+  val: data/val/images
